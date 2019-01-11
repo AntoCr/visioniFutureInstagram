@@ -221,6 +221,15 @@
 @font-face {
 	font-family: Lato;
 	font-weight: normal;
+	font-style: italic;
+	src: url('fonts/Lato-Italic.eot');
+	src: url('fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Lato-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Lato;
+	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/Lato-Regular.eot');
 	src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
@@ -237,15 +246,6 @@
 }
 
 @font-face {
-	font-family: Lato;
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/Lato-Italic.eot');
-	src: url('fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/Lato-Italic.ttf') format('truetype');
-}
-
-@font-face {
 	font-family: Lobster Two;
 	font-weight: normal;
 	font-style: italic;
@@ -255,19 +255,19 @@
 }
 
 @font-face {
-	font-family: Roboto Black;
-	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/Roboto-Black.ttf') format('truetype');
-}
-
-@font-face {
 	font-family: Lobster Two;
 	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/LobsterTwo-Regular.eot');
 	src: url('fonts/LobsterTwo-Regular.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/LobsterTwo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Roboto Black;
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/Roboto-Black.ttf') format('truetype');
 }
 
 @font-face {
@@ -286,16 +286,23 @@
 
 @font-face {
 	font-family: Roboto;
+	font-weight: bold italic;
+	font-style: normal;
+	src: url('fonts/Roboto-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Roboto;
 	font-weight: normal;
 	font-style: italic;
 	src: url('fonts/Roboto-Italic.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: Roboto;
-	font-weight: bold italic;
+	font-family: Roboto Light;
+	font-weight: normal;
 	font-style: normal;
-	src: url('fonts/Roboto-BoldItalic.ttf') format('truetype');
+	src: url('fonts/Roboto-Light.ttf') format('truetype');
 }
 
 @font-face {
@@ -327,17 +334,17 @@
 }
 
 @font-face {
-	font-family: Roboto Light;
+	font-family: Roboto Thin;
 	font-weight: normal;
 	font-style: normal;
-	src: url('fonts/Roboto-Light.ttf') format('truetype');
+	src: url('fonts/Roboto-Thin.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: Roboto Thin;
 	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/Roboto-Thin.ttf') format('truetype');
+	font-style: italic;
+	src: url('fonts/Roboto-ThinItalic.ttf') format('truetype');
 }
 
 @font-face {
@@ -356,13 +363,6 @@
 	src: url('fonts/Simonetta-Italic.eot');
 	src: url('fonts/Simonetta-Italic.eot?#iefix') format('embedded-opentype'),
 	     url('fonts/Simonetta-Italic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Roboto Thin;
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/Roboto-ThinItalic.ttf') format('truetype');
 }
 
 @font-face {
