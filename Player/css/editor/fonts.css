@@ -374,3 +374,10 @@
 	     url('fonts/Simonetta-Regular.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: obyčejné;
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/segoeui.ttf') format('truetype');
+}
+
