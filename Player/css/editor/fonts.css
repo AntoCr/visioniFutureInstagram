@@ -174,6 +174,24 @@
 }
 
 @font-face {
+	font-family: Dancing Script;
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/DancingScript-Regular.eot');
+	src: url('fonts/DancingScript-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/DancingScript-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Dancing Script;
+	font-weight: bold;
+	font-style: normal;
+	src: url('fonts/DancingScript-Bold.eot');
+	src: url('fonts/DancingScript-Bold.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/DancingScript-Bold.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: Crimson Text;
 	font-weight: normal;
 	font-style: italic;
@@ -192,21 +210,30 @@
 }
 
 @font-face {
-	font-family: Dancing Script;
-	font-weight: bold;
+	font-family: Lobster Two;
+	font-weight: normal;
 	font-style: normal;
-	src: url('fonts/DancingScript-Bold.eot');
-	src: url('fonts/DancingScript-Bold.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/DancingScript-Bold.ttf') format('truetype');
+	src: url('fonts/LobsterTwo-Regular.eot');
+	src: url('fonts/LobsterTwo-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/LobsterTwo-Regular.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: Dancing Script;
+	font-family: Lobster Two;
 	font-weight: normal;
+	font-style: italic;
+	src: url('fonts/LobsterTwo-Italic.eot');
+	src: url('fonts/LobsterTwo-Italic.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/LobsterTwo-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Lobster Two;
+	font-weight: bold;
 	font-style: normal;
-	src: url('fonts/DancingScript-Regular.eot');
-	src: url('fonts/DancingScript-Regular.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/DancingScript-Regular.ttf') format('truetype');
+	src: url('fonts/LobsterTwo-Bold.eot');
+	src: url('fonts/LobsterTwo-Bold.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/LobsterTwo-Bold.ttf') format('truetype');
 }
 
 @font-face {
@@ -237,30 +264,17 @@
 }
 
 @font-face {
-	font-family: Lobster Two;
-	font-weight: bold;
+	font-family: Roboto;
+	font-weight: bold italic;
 	font-style: normal;
-	src: url('fonts/LobsterTwo-Bold.eot');
-	src: url('fonts/LobsterTwo-Bold.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/LobsterTwo-Bold.ttf') format('truetype');
+	src: url('fonts/Roboto-BoldItalic.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: Lobster Two;
-	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/LobsterTwo-Regular.eot');
-	src: url('fonts/LobsterTwo-Regular.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/LobsterTwo-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Lobster Two;
+	font-family: Roboto Black;
 	font-weight: normal;
 	font-style: italic;
-	src: url('fonts/LobsterTwo-Italic.eot');
-	src: url('fonts/LobsterTwo-Italic.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/LobsterTwo-Italic.ttf') format('truetype');
+	src: url('fonts/Roboto-BlackItalic.ttf') format('truetype');
 }
 
 @font-face {
@@ -271,10 +285,31 @@
 }
 
 @font-face {
-	font-family: Roboto Black;
+	font-family: Roboto Light;
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Roboto Medium;
 	font-weight: normal;
 	font-style: italic;
-	src: url('fonts/Roboto-BlackItalic.ttf') format('truetype');
+	src: url('fonts/Roboto-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Roboto Medium;
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Roboto Light;
+	font-weight: normal;
+	font-style: italic;
+	src: url('fonts/Roboto-LightItalic.ttf') format('truetype');
 }
 
 @font-face {
@@ -286,9 +321,9 @@
 
 @font-face {
 	font-family: Roboto;
-	font-weight: bold italic;
+	font-weight: normal;
 	font-style: normal;
-	src: url('fonts/Roboto-BoldItalic.ttf') format('truetype');
+	src: url('fonts/Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -299,52 +334,12 @@
 }
 
 @font-face {
-	font-family: Roboto Light;
+	font-family: Simonetta;
 	font-weight: normal;
 	font-style: normal;
-	src: url('fonts/Roboto-Light.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Roboto Light;
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/Roboto-LightItalic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Roboto Medium;
-	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/Roboto-Medium.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Roboto Medium;
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/Roboto-MediumItalic.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Roboto;
-	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/Roboto-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Roboto Thin;
-	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/Roboto-Thin.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: Roboto Thin;
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/Roboto-ThinItalic.ttf') format('truetype');
+	src: url('fonts/Simonetta-Regular.eot');
+	src: url('fonts/Simonetta-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Simonetta-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -357,6 +352,13 @@
 }
 
 @font-face {
+	font-family: Roboto Thin;
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: Simonetta;
 	font-weight: normal;
 	font-style: italic;
@@ -366,12 +368,10 @@
 }
 
 @font-face {
-	font-family: Simonetta;
+	font-family: Roboto Thin;
 	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/Simonetta-Regular.eot');
-	src: url('fonts/Simonetta-Regular.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/Simonetta-Regular.ttf') format('truetype');
+	font-style: italic;
+	src: url('fonts/Roboto-ThinItalic.ttf') format('truetype');
 }
 
 @font-face {

@@ -1,14 +1,14 @@
 klynt.miniPlayerData = {
     "thanksForWatchingWording": "Thanks for watching!",
     "resumePlaybackWording": "Resume playback?",
-    "launchAppWording": "Then Launch Project",
+    "fullscreenInfoWording": "This program will launch in fullscreen",
     "yesWording": "Yes",
     "title": "Visioni Future - Instagram",
     "thumbnail": "Player/css/editor/img/mini-player.jpg",
     "noWording": "No",
     "analyticsKey": "",
-    "fullscreenInfoWording": "This program will launch in fullscreen",
     "redirectToMobileApp": "auto",
+    "launchAppWording": "Then Launch Project",
     "url": "",
     "downloadAppWording": "Download App",
     "description": "YouTube"
